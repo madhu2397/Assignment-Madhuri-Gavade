@@ -1,0 +1,14 @@
+body{
+    background-color:#334350; 
+}
+.heading{
+    text-align: center;
+    margin-top: 6%;
+    color: white;
+}
+/* card */
+.footer{
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+}
