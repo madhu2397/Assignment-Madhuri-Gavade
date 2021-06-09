@@ -1,0 +1,13 @@
+*{
+    font-size: 25px;
+}
+#table,th,td{
+    padding: 3px;
+    width: 30px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.abc,tr,td{
+    border-collapse: collapse;
+    border: none;
+}

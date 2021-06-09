@@ -1,0 +1,15 @@
+#container{
+    background-color: aqua;
+    /* display: block; */
+}
+.head{
+    background-color: blue;
+}
+
+.text{
+    background-color: lightskyblue;
+}
+
+.element{
+    background-color: lightskyblue;
+}

@@ -1,0 +1,31 @@
+* {
+  padding: 0px;
+  margin-top: 0px;
+}
+.thumbnail {
+  background-color: lightblue;
+}
+/* body {margin-top: 33px;} */
+.thumbnail .caption {
+  background-color: #ddd;
+}
+.center {
+  margin-left: 510px;
+}
+.center1 {
+  margin-left: 590px;
+}
+.center2 {
+  margin-left: 450px;
+}
+.img {
+  padding: 5px;
+  display: block;
+  margin-left: 550px;
+}
+.img1 {
+  padding: 5px;
+  display: block;
+  margin-left: 500px;
+  margin-right: auto;
+}

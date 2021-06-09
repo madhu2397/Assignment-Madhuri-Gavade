@@ -1,0 +1,16 @@
+#para{
+    font-size: 20px;
+    padding: 10px;
+}
+.img1{
+    /* border-bottom: 2px; */
+    height: 50px;
+    width: 60px;
+    border: 5px solid blue;
+}
+
+
+.img2{
+    height: 50px;
+    width: 60px;
+}

@@ -1,0 +1,80 @@
+body {
+  background-color: lightblue;
+}
+/* .container{
+    background-color: lightgray;
+    display: block;
+    margin-left: 100px;
+    /* margin-right: 500ox; */
+/* padding-left: 100px; 
+    padding-right: 100px;
+    margin-top: 30px;
+} */
+
+.container {
+  display: block;
+  /* border: 1px solid black; */
+}
+.abc {
+  /* border: 2px solid red; */
+  margin-left: 250px;
+  margin-right: 300px;
+  background-color: rgb(235, 225, 225);
+}
+.row {
+  margin-left: 500px;
+}
+.heading {
+  margin-left: 250px;
+  padding: 10px;
+}
+/* labels */
+.label {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 10px;
+  /* vertical-align: top; */
+  margin-top: 10px;
+}
+/* at what time */
+.div {
+  margin-left: 180px;
+  padding: 10px;
+}
+.label2 {
+  margin-left: 225px;
+}
+/* emotions */
+.main {
+  margin-left: 35px;
+}
+.mood {
+  margin-left: 410px;
+}
+/* experience */
+.label1 {
+  display: inline-block;
+  /* text-align: right; */
+  width: 30%;
+  /* padding: 5px;  */
+  vertical-align: top;
+  /* margin-top: 10px;  */
+  margin-left: 140px;
+}
+#id {
+  margin-left: 100px;
+}
+/* submit */
+.enter {
+  display: inline-block;
+  text-align: right;
+  margin-left: 450px;
+  /* width: 40%; */
+  padding: 5px;
+  /* vertical-align: top; */
+  margin-top: 10px;
+}
+.enter2 {
+  padding: 5px;
+}

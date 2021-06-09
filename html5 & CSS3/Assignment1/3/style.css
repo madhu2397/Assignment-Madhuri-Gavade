@@ -1,0 +1,13 @@
+#table2,th,td{
+    width: 30px;
+    padding: 2px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#table3,th,td{
+    width: 30px;
+    padding: 3px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Good vibe form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="row" style="margin-left: 600px">Good Vibes Form</h1>
+    <div class="container">
+      <div class="abc">
+        <div>
+          <p style="font-size: 25px" class="heading">
+            Tell us something positive that happened to you today
+          </p>
+          <form action="">
+            <div>
+              <label for="name" class="label">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+              />
+            </div>
+
+            <div>
+              <label for="email" class="label">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email address"
+              />
+            </div>
+
+            <div>
+              <label for="good" class="label"
+                >On a scale of 1-10, how good was it?</label
+              >
+              <input
+                type="text"
+                id="scale"
+                name="good"
+                placeholder="Enter no between 1 & 10"
+              />
+              <br />
+
+              <label for="happen" class="label">Where did it happen</label>
+              <select id="happen" name="vibe">
+                <option value="at home">At Home</option>
+                <option value="on my commute">On my commute</option>
+                <option value="at work">At work</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="div">
+              <label for="time"
+                >At what time of day did it happen
+                <input type="radio" id="time1" name="morning" value="morning" />
+                <label for="morning">Morning</label>
+                <br />
+                <input
+                  type="radio"
+                  class="label2"
+                  id="time2"
+                  name="morning"
+                  value="afternoon"
+                />
+                <label for="afternoon">Afternoon</label>
+                <br />
+
+                <input
+                  type="radio"
+                  class="label2"
+                  id="time3"
+                  name="morning"
+                  value="evening"
+                />
+                <label for="evening">Evening</label>
+              </label>
+            </div>
+            <br />
+
+            <div>
+              <label for="emotions" class="main"
+                >What emotions did you experience?(Select all that apply)
+                <input type="checkbox" id="excited" name="excited" />
+                <label for="excited">Excited</label><br />
+
+                <input
+                  type="checkbox"
+                  class="mood"
+                  id="humbled"
+                  name="humbled"
+                />
+                <label for="humbled">Humbled</label><br />
+
+                <input type="checkbox" class="mood" id="elated" name="elated" />
+                <label for="elated">Elated</label><br />
+
+                <input type="checkbox" class="mood" id="loved" name="loved" />
+                <label for="loved">Loved</label><br />
+
+                <input
+                  type="checkbox"
+                  class="mood"
+                  id="enthusiastic"
+                  name="enthusiastic"
+                />
+                <label for="enthusiastic">Enthusiastic</label>
+              </label>
+            </div>
+            <br />
+            <label for="experience" class="label" id="expe"
+              >Please describe your positive experience</label
+            >
+            <textarea
+              id="experience"
+              name="experience"
+              placeholder="Enter your experience here"
+            ></textarea>
+            <br /><br />
+            <button type="submit" class="enter">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
